@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MatchCore_Tests' do
+  pod 'MatchCore', :path => '../'
+  
+  
+end
