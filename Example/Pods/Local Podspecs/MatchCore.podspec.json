@@ -1,0 +1,22 @@
+{
+  "name": "MatchCore",
+  "version": "0.1.0",
+  "summary": "A short description of MatchCore.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/git/MatchCore",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "git": "abel3cl@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/git/MatchCore.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MatchCore/Classes/**/*"
+}

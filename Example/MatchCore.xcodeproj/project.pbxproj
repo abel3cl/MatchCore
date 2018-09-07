@@ -13,13 +13,13 @@
 
 /* Begin PBXFileReference section */
 		0846248052F878919F30AB1F /* Pods-MatchCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchCore_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MatchCore_Tests/Pods-MatchCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		17369D2D91AE1ED171574870 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17369D2D91AE1ED171574870 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		2A63B10F3BF5BAFF46BD142C /* Pods-MatchCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MatchCore_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MatchCore_Tests/Pods-MatchCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* MatchCore_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MatchCore_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		88B0CDEA5A6BD9DA03326733 /* MatchCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MatchCore.podspec; path = ../MatchCore.podspec; sourceTree = "<group>"; };
-		A556E01E648301E53AA08E44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		88B0CDEA5A6BD9DA03326733 /* MatchCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MatchCore.podspec; path = ../MatchCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A556E01E648301E53AA08E44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D9ACB99C2AE9713CB09ED378 /* Pods_MatchCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -130,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;

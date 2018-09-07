@@ -1,0 +1,16 @@
+PODS:
+  - MatchCore (0.1.0)
+
+DEPENDENCIES:
+  - MatchCore (from `../`)
+
+EXTERNAL SOURCES:
+  MatchCore:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MatchCore: 2a17c63b10f62e83243e1a61c8201a484736281c
+
+PODFILE CHECKSUM: 932ceb5545400baf565d68cf6326b717ccb43777
+
+COCOAPODS: 1.5.2
