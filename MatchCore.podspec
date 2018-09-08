@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
     Core common components (models, controllers, extensions) of Match.
                        DESC
 
-  s.homepage         = 'https://github.com/git/MatchCore'
+  s.homepage         = 'https://github.com/abel3cl/MatchCore'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'git' => 'abel3cl@gmail.com' }

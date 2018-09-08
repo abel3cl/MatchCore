@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		2DB9157801CFCAC5A7AEA6D5CEB2D05E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7D2000475F0B1B8CB847E987F9C40C39 /* Pods-MatchCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B57241082143F0DF00A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241072143F0DF00A5FBFD /* Player.swift */; };
 		BA846C9C8CCD4561B32992AFB70F0FA7 /* MatchCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BBF68E67EA5EEF3555B7C76BF4E2036E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 092D6B2D3E62D1CB16932DDD23C03ADA /* ReplaceMe.swift */; };
 		D3D69EF1C35942B9AFF68BFB6037DA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E58DB63D10CD2DD1E246F6D0E47FF097 /* Pods-MatchCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */; };
 		E9CF6BDEACB3D89424D5A6ECDC9F839A /* MatchCore-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C14D850BEA74703D0786D80B1ABDCF2 /* MatchCore-dummy.m */; };
@@ -27,29 +27,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		092D6B2D3E62D1CB16932DDD23C03ADA /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MatchCore/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		142D2B525EA35E3C72740FE40F376E3B /* MatchCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MatchCore.framework; path = MatchCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15E74DD718007EF6452BC01E5D5F2E94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		142D2B525EA35E3C72740FE40F376E3B /* MatchCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MatchCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		15E74DD718007EF6452BC01E5D5F2E94 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1C14D850BEA74703D0786D80B1ABDCF2 /* MatchCore-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MatchCore-dummy.m"; sourceTree = "<group>"; };
-		236AC19724B104444913604960CC6E12 /* MatchCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MatchCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		236AC19724B104444913604960CC6E12 /* MatchCore.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = MatchCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2960E88778EDE44FBD72C70F5AAA7987 /* Pods-MatchCore_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatchCore_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		36E65760CA7FC9C5080CD3CE82202A1D /* MatchCore-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MatchCore-prefix.pch"; sourceTree = "<group>"; };
 		3850F286B6063FC132FE5DD69F5132E1 /* Pods-MatchCore_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MatchCore_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4E8A8E889C932CA98364610A184F08BA /* Pods-MatchCore_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatchCore_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5DB615DCC6BAB90CB470D73A46AF8A14 /* MatchCore.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MatchCore.xcconfig; sourceTree = "<group>"; };
-		6782D1C8B13F991177D612E4744C2B48 /* Pods_MatchCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MatchCore_Tests.framework; path = "Pods-MatchCore_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6782D1C8B13F991177D612E4744C2B48 /* Pods_MatchCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A0ED84CC0B2D681D5518CE77EE5A520 /* MatchCore.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MatchCore.modulemap; sourceTree = "<group>"; };
 		757B48E145D7DBC91F43121B68610F96 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98C8A09ED2E5AE0A2F3D68142C4C6FC5 /* Pods-MatchCore_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MatchCore_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MatchCore_Tests-dummy.m"; sourceTree = "<group>"; };
 		A465C87601DECD8448E362404AF4FE71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MatchCore-umbrella.h"; sourceTree = "<group>"; };
+		B57241072143F0DF00A5FBFD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../MatchCore/Classes/Player.swift; sourceTree = "<group>"; };
 		C6B907807305449956790D19449896B9 /* Pods-MatchCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatchCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B7A55D424BD35F43FC3D6797B37CDE /* Pods-MatchCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatchCore_Tests-resources.sh"; sourceTree = "<group>"; };
 		E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MatchCore_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E21262BE2DF55E062D26B5A6FD591AA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E21262BE2DF55E062D26B5A6FD591AA0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F0815D8EE1C0558FDDBD446E2B5FF846 /* Pods-MatchCore_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MatchCore_Tests.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -144,12 +144,20 @@
 		A04FA9BB24619AB5BABDC5F779BCE67D /* MatchCore */ = {
 			isa = PBXGroup;
 			children = (
-				092D6B2D3E62D1CB16932DDD23C03ADA /* ReplaceMe.swift */,
+				B57241062143F0C100A5FBFD /* Classes */,
 				E571DC6F28B8DAC2896811974D922285 /* Pod */,
 				2206107CEBEFF2745A9EE7C1E3DD0291 /* Support Files */,
 			);
 			name = MatchCore;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		B57241062143F0C100A5FBFD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B57241072143F0DF00A5FBFD /* Player.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -243,6 +251,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					ED1E4AF53413FD4410C27F73C258F349 = {
+						LastSwiftMigration = 0940;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -275,8 +288,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B57241082143F0DF00A5FBFD /* Player.swift in Sources */,
 				E9CF6BDEACB3D89424D5A6ECDC9F839A /* MatchCore-dummy.m in Sources */,
-				BBF68E67EA5EEF3555B7C76BF4E2036E /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +344,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5DB615DCC6BAB90CB470D73A46AF8A14 /* MatchCore.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -519,6 +533,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5DB615DCC6BAB90CB470D73A46AF8A14 /* MatchCore.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
