@@ -9,8 +9,8 @@
 import Foundation
 
 public class Player {
-    var name: String
-    var currentScore: UInt
+    public var name: String
+    public var currentScore: UInt
     
     public init(name: String,
                 currentScore: UInt) {
