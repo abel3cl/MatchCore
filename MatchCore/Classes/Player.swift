@@ -35,6 +35,8 @@ extension Player: Decodable {
 }
 extension Player: Encodable {
     public func encode(to encoder: Encoder) throws {
-        
+        var container = encoder.container(keyedBy: Keys.self)
+        try container.encode(name, forKey: .name)
+        try container.encode(currentScore, forKey: .currentScore)
     }
 }

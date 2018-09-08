@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2DB9157801CFCAC5A7AEA6D5CEB2D05E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7D2000475F0B1B8CB847E987F9C40C39 /* Pods-MatchCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B52179F4214467C7000345B7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52179F3214467C7000345B7 /* Message.swift */; };
+		B52179F5214467C7000345B7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52179F3214467C7000345B7 /* Message.swift */; };
 		B57241082143F0DF00A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241072143F0DF00A5FBFD /* Player.swift */; };
 		B57241102143F6F400A5FBFD /* MatchCoreOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B572410F2143F6F400A5FBFD /* MatchCoreOS.h */; };
 		B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */ = {isa = PBXBuildFile; fileRef = B57241112143F6F400A5FBFD /* MatchCoreOS.m */; };
@@ -48,6 +50,7 @@
 		A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MatchCore_Tests-dummy.m"; sourceTree = "<group>"; };
 		A465C87601DECD8448E362404AF4FE71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MatchCore-umbrella.h"; sourceTree = "<group>"; };
+		B52179F3214467C7000345B7 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = ../MatchCore/Classes/Message.swift; sourceTree = "<group>"; };
 		B57241072143F0DF00A5FBFD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../MatchCore/Classes/Player.swift; sourceTree = "<group>"; };
 		B572410D2143F6F400A5FBFD /* libMatchCoreOS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMatchCoreOS.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572410F2143F6F400A5FBFD /* MatchCoreOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchCoreOS.h; sourceTree = "<group>"; };
@@ -171,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				B57241072143F0DF00A5FBFD /* Player.swift */,
+				B52179F3214467C7000345B7 /* Message.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -343,6 +347,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52179F5214467C7000345B7 /* Message.swift in Sources */,
 				B57241162143F70400A5FBFD /* Player.swift in Sources */,
 				B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */,
 			);
@@ -352,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B52179F4214467C7000345B7 /* Message.swift in Sources */,
 				B57241082143F0DF00A5FBFD /* Player.swift in Sources */,
 				E9CF6BDEACB3D89424D5A6ECDC9F839A /* MatchCore-dummy.m in Sources */,
 			);
