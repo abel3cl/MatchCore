@@ -40,3 +40,14 @@ extension Player: Encodable {
         try container.encode(currentScore, forKey: .currentScore)
     }
 }
+
+
+extension Player: Hashable {
+    public var hashValue: Int {
+        return (self.name.hashValue + self.currentScore.hashValue) * 12345
+    }
+    
+    public static func == (lhs: Player, rhs: Player) -> Bool {
+        return lhs.name == rhs.name
+    }
+}
