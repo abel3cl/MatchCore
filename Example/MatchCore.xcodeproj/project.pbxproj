@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		7F11D408E1A74EC99DC50DB2 /* Pods_MatchCore_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9ACB99C2AE9713CB09ED378 /* Pods_MatchCore_Tests.framework */; };
-		B57241042143EFAF00A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241032143EFAF00A5FBFD /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +20,6 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		88B0CDEA5A6BD9DA03326733 /* MatchCore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MatchCore.podspec; path = ../MatchCore.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A556E01E648301E53AA08E44 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B57241032143EFAF00A5FBFD /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		D9ACB99C2AE9713CB09ED378 /* Pods_MatchCore_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MatchCore_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -40,7 +38,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				B54CF59A2143EF290027E8E6 /* Classes */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -90,14 +87,6 @@
 				D9ACB99C2AE9713CB09ED378 /* Pods_MatchCore_Tests.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B54CF59A2143EF290027E8E6 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				B57241032143EFAF00A5FBFD /* Player.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		E1C7F949CD207CF7F814AB93 /* Pods */ = {
@@ -220,7 +209,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57241042143EFAF00A5FBFD /* Player.swift in Sources */,
 				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

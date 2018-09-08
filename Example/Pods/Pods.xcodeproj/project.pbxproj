@@ -10,6 +10,9 @@
 		2DB9157801CFCAC5A7AEA6D5CEB2D05E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7D2000475F0B1B8CB847E987F9C40C39 /* Pods-MatchCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B57241082143F0DF00A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241072143F0DF00A5FBFD /* Player.swift */; };
+		B57241102143F6F400A5FBFD /* MatchCoreOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B572410F2143F6F400A5FBFD /* MatchCoreOS.h */; };
+		B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */ = {isa = PBXBuildFile; fileRef = B57241112143F6F400A5FBFD /* MatchCoreOS.m */; };
+		B57241162143F70400A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241072143F0DF00A5FBFD /* Player.swift */; };
 		BA846C9C8CCD4561B32992AFB70F0FA7 /* MatchCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D69EF1C35942B9AFF68BFB6037DA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E58DB63D10CD2DD1E246F6D0E47FF097 /* Pods-MatchCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */; };
@@ -46,6 +49,9 @@
 		A465C87601DECD8448E362404AF4FE71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MatchCore-umbrella.h"; sourceTree = "<group>"; };
 		B57241072143F0DF00A5FBFD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../MatchCore/Classes/Player.swift; sourceTree = "<group>"; };
+		B572410D2143F6F400A5FBFD /* libMatchCoreOS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMatchCoreOS.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		B572410F2143F6F400A5FBFD /* MatchCoreOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchCoreOS.h; sourceTree = "<group>"; };
+		B57241112143F6F400A5FBFD /* MatchCoreOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchCoreOS.m; sourceTree = "<group>"; };
 		C6B907807305449956790D19449896B9 /* Pods-MatchCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatchCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B7A55D424BD35F43FC3D6797B37CDE /* Pods-MatchCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatchCore_Tests-resources.sh"; sourceTree = "<group>"; };
 		E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MatchCore_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -70,6 +76,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B572410A2143F6F400A5FBFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +91,7 @@
 			children = (
 				142D2B525EA35E3C72740FE40F376E3B /* MatchCore.framework */,
 				6782D1C8B13F991177D612E4744C2B48 /* Pods_MatchCore_Tests.framework */,
+				B572410D2143F6F400A5FBFD /* libMatchCoreOS.dylib */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +141,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				DEDD80519792E6D3199E96C1B4A78FEF /* Development Pods */,
+				B572410E2143F6F400A5FBFD /* MatchCoreOS */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				042540752CC09CB054B5863457BA4737 /* Products */,
 				9225638B100773236539A85CC6E02481 /* Targets Support Files */,
@@ -158,6 +173,15 @@
 				B57241072143F0DF00A5FBFD /* Player.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		B572410E2143F6F400A5FBFD /* MatchCoreOS */ = {
+			isa = PBXGroup;
+			children = (
+				B572410F2143F6F400A5FBFD /* MatchCoreOS.h */,
+				B57241112143F6F400A5FBFD /* MatchCoreOS.m */,
+			);
+			path = MatchCoreOS;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -205,6 +229,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B572410B2143F6F400A5FBFD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57241102143F6F400A5FBFD /* MatchCoreOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -225,6 +257,23 @@
 			productName = "Pods-MatchCore_Tests";
 			productReference = 6782D1C8B13F991177D612E4744C2B48 /* Pods_MatchCore_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		B572410C2143F6F400A5FBFD /* MatchCoreOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B57241152143F6F400A5FBFD /* Build configuration list for PBXNativeTarget "MatchCoreOS" */;
+			buildPhases = (
+				B57241092143F6F400A5FBFD /* Sources */,
+				B572410A2143F6F400A5FBFD /* Frameworks */,
+				B572410B2143F6F400A5FBFD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MatchCoreOS;
+			productName = MatchCoreOS;
+			productReference = B572410D2143F6F400A5FBFD /* libMatchCoreOS.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
 		};
 		ED1E4AF53413FD4410C27F73C258F349 /* MatchCore */ = {
 			isa = PBXNativeTarget;
@@ -252,6 +301,11 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
+					B572410C2143F6F400A5FBFD = {
+						CreatedOnToolsVersion = 9.4.1;
+						DevelopmentTeam = MS48YPHB8N;
+						ProvisioningStyle = Automatic;
+					};
 					ED1E4AF53413FD4410C27F73C258F349 = {
 						LastSwiftMigration = 0940;
 					};
@@ -271,6 +325,7 @@
 			targets = (
 				ED1E4AF53413FD4410C27F73C258F349 /* MatchCore */,
 				062AD9ED77F1CA859D382C8B480A4315 /* Pods-MatchCore_Tests */,
+				B572410C2143F6F400A5FBFD /* MatchCoreOS */,
 			);
 		};
 /* End PBXProject section */
@@ -281,6 +336,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58DB63D10CD2DD1E246F6D0E47FF097 /* Pods-MatchCore_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57241092143F6F400A5FBFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B57241162143F70400A5FBFD /* Player.swift in Sources */,
+				B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +593,44 @@
 			};
 			name = Release;
 		};
+		B57241132143F6F400A5FBFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MS48YPHB8N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B57241142143F6F400A5FBFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MS48YPHB8N;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				EXECUTABLE_PREFIX = lib;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		C23C15C10BB5A5A4E8C0485452DDBFA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5DB615DCC6BAB90CB470D73A46AF8A14 /* MatchCore.xcconfig */;
@@ -589,6 +691,15 @@
 			buildConfigurations = (
 				283C4F32556B2404BB3D6E3A1389554E /* Debug */,
 				9E10327187513C9BD059E694C8F0D3E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B57241152143F6F400A5FBFD /* Build configuration list for PBXNativeTarget "MatchCoreOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57241132143F6F400A5FBFD /* Debug */,
+				B57241142143F6F400A5FBFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
