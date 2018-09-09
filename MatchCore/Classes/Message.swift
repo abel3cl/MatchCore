@@ -16,29 +16,29 @@ public enum MessageType: String, Codable {
 
 public class Message: Codable {
     public let type: MessageType
-    public let messages: [String]
+    public let message: String?
     public let player: Player?
     
-    private init(type: MessageType, messages: [String], player: Player? = nil) {
+    private init(type: MessageType, message: String? = nil, player: Player? = nil) {
         self.type = type
-        self.messages = messages
+        self.message = message
         self.player = player
     }
     
     public static func join(player: Player) -> Message {
-        return Message(type: .join, messages: [], player: player)
+        return Message(type: .join, player: player)
     }
     
     public static func stop() -> Message {
-        return Message(type: .stop, messages: [])
+        return Message(type: .stop)
     }
     
-    public static func turn(messages: [String], player: Player) -> Message {
-        return Message(type: .turn, messages: messages, player: player)
+    public static func turn(message: String?, player: Player) -> Message {
+        return Message(type: .turn, message: message, player: player)
     }
     
-    public static func finish(messages: [String], winningPlayer: Player?) -> Message {
-        return Message(type: .finish, messages: messages, player: winningPlayer)
+    public static func finish(winningPlayer: Player?) -> Message {
+        return Message(type: .finish, player: winningPlayer)
     }
     
     
