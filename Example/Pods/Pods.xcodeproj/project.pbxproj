@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		2DB9157801CFCAC5A7AEA6D5CEB2D05E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7D2000475F0B1B8CB847E987F9C40C39 /* Pods-MatchCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B57241082143F0DF00A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241072143F0DF00A5FBFD /* Player.swift */; };
 		B57241102143F6F400A5FBFD /* MatchCoreOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B572410F2143F6F400A5FBFD /* MatchCoreOS.h */; };
 		B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */ = {isa = PBXBuildFile; fileRef = B57241112143F6F400A5FBFD /* MatchCoreOS.m */; };
-		B57241162143F70400A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241072143F0DF00A5FBFD /* Player.swift */; };
-		B57BDC75215032CB00E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC73215032CB00E6FE51 /* Category.swift */; };
-		B57BDC76215032CB00E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC73215032CB00E6FE51 /* Category.swift */; };
-		B57BDC77215032CB00E6FE51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC74215032CB00E6FE51 /* Board.swift */; };
-		B57BDC78215032CB00E6FE51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC74215032CB00E6FE51 /* Board.swift */; };
+		B57BDC7E2150355700E6FE51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7B2150355700E6FE51 /* Board.swift */; };
+		B57BDC7F2150355700E6FE51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7B2150355700E6FE51 /* Board.swift */; };
+		B57BDC802150355700E6FE51 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7C2150355700E6FE51 /* Player.swift */; };
+		B57BDC812150355700E6FE51 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7C2150355700E6FE51 /* Player.swift */; };
+		B57BDC822150355700E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7D2150355700E6FE51 /* Category.swift */; };
+		B57BDC832150355700E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7D2150355700E6FE51 /* Category.swift */; };
 		BA846C9C8CCD4561B32992AFB70F0FA7 /* MatchCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D69EF1C35942B9AFF68BFB6037DA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E58DB63D10CD2DD1E246F6D0E47FF097 /* Pods-MatchCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */; };
@@ -52,12 +52,12 @@
 		A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MatchCore_Tests-dummy.m"; sourceTree = "<group>"; };
 		A465C87601DECD8448E362404AF4FE71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MatchCore-umbrella.h"; sourceTree = "<group>"; };
-		B57241072143F0DF00A5FBFD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../MatchCore/Classes/Player.swift; sourceTree = "<group>"; };
 		B572410D2143F6F400A5FBFD /* libMatchCoreOS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMatchCoreOS.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572410F2143F6F400A5FBFD /* MatchCoreOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchCoreOS.h; sourceTree = "<group>"; };
 		B57241112143F6F400A5FBFD /* MatchCoreOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchCoreOS.m; sourceTree = "<group>"; };
-		B57BDC73215032CB00E6FE51 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../MatchCore/Classes/Category.swift; sourceTree = "<group>"; };
-		B57BDC74215032CB00E6FE51 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ../MatchCore/Classes/Board.swift; sourceTree = "<group>"; };
+		B57BDC7B2150355700E6FE51 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
+		B57BDC7C2150355700E6FE51 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		B57BDC7D2150355700E6FE51 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		C6B907807305449956790D19449896B9 /* Pods-MatchCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatchCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B7A55D424BD35F43FC3D6797B37CDE /* Pods-MatchCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatchCore_Tests-resources.sh"; sourceTree = "<group>"; };
 		E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MatchCore_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -176,9 +176,9 @@
 		B57241062143F0C100A5FBFD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B57241072143F0DF00A5FBFD /* Player.swift */,
-				B57BDC74215032CB00E6FE51 /* Board.swift */,
-				B57BDC73215032CB00E6FE51 /* Category.swift */,
+				B57BDC7B2150355700E6FE51 /* Board.swift */,
+				B57BDC7D2150355700E6FE51 /* Category.swift */,
+				B57BDC7C2150355700E6FE51 /* Player.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -315,6 +315,7 @@
 					B572410C2143F6F400A5FBFD = {
 						CreatedOnToolsVersion = 9.4.1;
 						DevelopmentTeam = MS48YPHB8N;
+						LastSwiftMigration = 0940;
 						ProvisioningStyle = Automatic;
 					};
 					ED1E4AF53413FD4410C27F73C258F349 = {
@@ -354,10 +355,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57241162143F70400A5FBFD /* Player.swift in Sources */,
-				B57BDC76215032CB00E6FE51 /* Category.swift in Sources */,
-				B57BDC78215032CB00E6FE51 /* Board.swift in Sources */,
+				B57BDC7F2150355700E6FE51 /* Board.swift in Sources */,
+				B57BDC812150355700E6FE51 /* Player.swift in Sources */,
 				B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */,
+				B57BDC832150355700E6FE51 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,10 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57241082143F0DF00A5FBFD /* Player.swift in Sources */,
-				B57BDC75215032CB00E6FE51 /* Category.swift in Sources */,
-				B57BDC77215032CB00E6FE51 /* Board.swift in Sources */,
+				B57BDC7E2150355700E6FE51 /* Board.swift in Sources */,
+				B57BDC802150355700E6FE51 /* Player.swift in Sources */,
 				E9CF6BDEACB3D89424D5A6ECDC9F839A /* MatchCore-dummy.m in Sources */,
+				B57BDC822150355700E6FE51 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -615,6 +616,7 @@
 		B57241132143F6F400A5FBFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS48YPHB8N;
@@ -625,10 +627,12 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -636,12 +640,14 @@
 		B57241142143F6F400A5FBFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MS48YPHB8N;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				EXECUTABLE_PREFIX = lib;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
