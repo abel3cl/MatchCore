@@ -9,27 +9,32 @@
 import Foundation
 
 public class Player {
-    public var name: String
+    public let name: String
     public var currentScore: UInt
+    public var board: Board? = nil
     
     public init(name: String,
-                currentScore: UInt) {
+                currentScore: UInt,
+                board: Board?) {
         self.name = name
         self.currentScore = currentScore
+        self.board = board
     }
     
     public required convenience init(from decoder: Decoder) throws {
         let container = try decoder.container(keyedBy: Keys.self)
         let name = try container.decode(String.self, forKey: .name)
         let currentScore = try container.decode(UInt.self, forKey: .currentScore)
-        self.init(name: name, currentScore: currentScore)
+        let board = try container.decodeIfPresent(Board.self, forKey: .board)
+        self.init(name: name, currentScore: currentScore, board: board)
     }
 }
 
 extension Player: Decodable {
-    enum Keys : CodingKey {
+    enum Keys: CodingKey {
         case name
         case currentScore
+        case board
     }
 
 }
@@ -38,9 +43,9 @@ extension Player: Encodable {
         var container = encoder.container(keyedBy: Keys.self)
         try container.encode(name, forKey: .name)
         try container.encode(currentScore, forKey: .currentScore)
+        try container.encodeIfPresent(board, forKey: .board)
     }
 }
-
 
 extension Player: Hashable {
     public var hashValue: Int {

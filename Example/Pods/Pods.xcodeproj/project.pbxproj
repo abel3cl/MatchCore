@@ -9,12 +9,14 @@
 /* Begin PBXBuildFile section */
 		2DB9157801CFCAC5A7AEA6D5CEB2D05E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		7D2000475F0B1B8CB847E987F9C40C39 /* Pods-MatchCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B52179F4214467C7000345B7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52179F3214467C7000345B7 /* Message.swift */; };
-		B52179F5214467C7000345B7 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52179F3214467C7000345B7 /* Message.swift */; };
 		B57241082143F0DF00A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241072143F0DF00A5FBFD /* Player.swift */; };
 		B57241102143F6F400A5FBFD /* MatchCoreOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B572410F2143F6F400A5FBFD /* MatchCoreOS.h */; };
 		B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */ = {isa = PBXBuildFile; fileRef = B57241112143F6F400A5FBFD /* MatchCoreOS.m */; };
 		B57241162143F70400A5FBFD /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57241072143F0DF00A5FBFD /* Player.swift */; };
+		B57BDC75215032CB00E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC73215032CB00E6FE51 /* Category.swift */; };
+		B57BDC76215032CB00E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC73215032CB00E6FE51 /* Category.swift */; };
+		B57BDC77215032CB00E6FE51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC74215032CB00E6FE51 /* Board.swift */; };
+		B57BDC78215032CB00E6FE51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC74215032CB00E6FE51 /* Board.swift */; };
 		BA846C9C8CCD4561B32992AFB70F0FA7 /* MatchCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D69EF1C35942B9AFF68BFB6037DA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E58DB63D10CD2DD1E246F6D0E47FF097 /* Pods-MatchCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */; };
@@ -50,11 +52,12 @@
 		A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MatchCore_Tests-dummy.m"; sourceTree = "<group>"; };
 		A465C87601DECD8448E362404AF4FE71 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MatchCore-umbrella.h"; sourceTree = "<group>"; };
-		B52179F3214467C7000345B7 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = ../MatchCore/Classes/Message.swift; sourceTree = "<group>"; };
 		B57241072143F0DF00A5FBFD /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../MatchCore/Classes/Player.swift; sourceTree = "<group>"; };
 		B572410D2143F6F400A5FBFD /* libMatchCoreOS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMatchCoreOS.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572410F2143F6F400A5FBFD /* MatchCoreOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchCoreOS.h; sourceTree = "<group>"; };
 		B57241112143F6F400A5FBFD /* MatchCoreOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchCoreOS.m; sourceTree = "<group>"; };
+		B57BDC73215032CB00E6FE51 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../MatchCore/Classes/Category.swift; sourceTree = "<group>"; };
+		B57BDC74215032CB00E6FE51 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ../MatchCore/Classes/Board.swift; sourceTree = "<group>"; };
 		C6B907807305449956790D19449896B9 /* Pods-MatchCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatchCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B7A55D424BD35F43FC3D6797B37CDE /* Pods-MatchCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatchCore_Tests-resources.sh"; sourceTree = "<group>"; };
 		E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MatchCore_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -174,7 +177,8 @@
 			isa = PBXGroup;
 			children = (
 				B57241072143F0DF00A5FBFD /* Player.swift */,
-				B52179F3214467C7000345B7 /* Message.swift */,
+				B57BDC74215032CB00E6FE51 /* Board.swift */,
+				B57BDC73215032CB00E6FE51 /* Category.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -305,6 +309,9 @@
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				TargetAttributes = {
+					062AD9ED77F1CA859D382C8B480A4315 = {
+						LastSwiftMigration = 0940;
+					};
 					B572410C2143F6F400A5FBFD = {
 						CreatedOnToolsVersion = 9.4.1;
 						DevelopmentTeam = MS48YPHB8N;
@@ -347,8 +354,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52179F5214467C7000345B7 /* Message.swift in Sources */,
 				B57241162143F70400A5FBFD /* Player.swift in Sources */,
+				B57BDC76215032CB00E6FE51 /* Category.swift in Sources */,
+				B57BDC78215032CB00E6FE51 /* Board.swift in Sources */,
 				B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,8 +365,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B52179F4214467C7000345B7 /* Message.swift in Sources */,
 				B57241082143F0DF00A5FBFD /* Player.swift in Sources */,
+				B57BDC75215032CB00E6FE51 /* Category.swift in Sources */,
+				B57BDC77215032CB00E6FE51 /* Board.swift in Sources */,
 				E9CF6BDEACB3D89424D5A6ECDC9F839A /* MatchCore-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,6 +389,7 @@
 			baseConfigurationReference = C6B907807305449956790D19449896B9 /* Pods-MatchCore_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -404,6 +414,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -511,6 +522,7 @@
 			baseConfigurationReference = 2960E88778EDE44FBD72C70F5AAA7987 /* Pods-MatchCore_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -534,6 +546,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
