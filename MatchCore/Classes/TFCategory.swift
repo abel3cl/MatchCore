@@ -69,6 +69,5 @@ extension TFCategory: Codable {
         var container = encoder.singleValueContainer()
         try container.encode(value)
     }
-    
 }
 
