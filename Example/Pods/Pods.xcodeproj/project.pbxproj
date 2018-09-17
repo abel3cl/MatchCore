@@ -17,6 +17,8 @@
 		B57BDC812150355700E6FE51 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7C2150355700E6FE51 /* Player.swift */; };
 		B57BDC822150355700E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7D2150355700E6FE51 /* Category.swift */; };
 		B57BDC832150355700E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC7D2150355700E6FE51 /* Category.swift */; };
+		B57BDC852150358900E6FE51 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC842150358900E6FE51 /* Action.swift */; };
+		B57BDC862150358900E6FE51 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC842150358900E6FE51 /* Action.swift */; };
 		BA846C9C8CCD4561B32992AFB70F0FA7 /* MatchCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D69EF1C35942B9AFF68BFB6037DA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E58DB63D10CD2DD1E246F6D0E47FF097 /* Pods-MatchCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */; };
@@ -58,6 +60,7 @@
 		B57BDC7B2150355700E6FE51 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Board.swift; sourceTree = "<group>"; };
 		B57BDC7C2150355700E6FE51 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 		B57BDC7D2150355700E6FE51 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		B57BDC842150358900E6FE51 /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
 		C6B907807305449956790D19449896B9 /* Pods-MatchCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatchCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B7A55D424BD35F43FC3D6797B37CDE /* Pods-MatchCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatchCore_Tests-resources.sh"; sourceTree = "<group>"; };
 		E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MatchCore_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -179,6 +182,7 @@
 				B57BDC7B2150355700E6FE51 /* Board.swift */,
 				B57BDC7D2150355700E6FE51 /* Category.swift */,
 				B57BDC7C2150355700E6FE51 /* Player.swift */,
+				B57BDC842150358900E6FE51 /* Action.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -358,6 +362,7 @@
 				B57BDC7F2150355700E6FE51 /* Board.swift in Sources */,
 				B57BDC812150355700E6FE51 /* Player.swift in Sources */,
 				B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */,
+				B57BDC862150358900E6FE51 /* Action.swift in Sources */,
 				B57BDC832150355700E6FE51 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +374,7 @@
 				B57BDC7E2150355700E6FE51 /* Board.swift in Sources */,
 				B57BDC802150355700E6FE51 /* Player.swift in Sources */,
 				E9CF6BDEACB3D89424D5A6ECDC9F839A /* MatchCore-dummy.m in Sources */,
+				B57BDC852150358900E6FE51 /* Action.swift in Sources */,
 				B57BDC822150355700E6FE51 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
