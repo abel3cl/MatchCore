@@ -15,7 +15,7 @@ public class TFPlayer {
     
     public init(name: String,
                 currentScore: UInt,
-                board: Board?) {
+                board: TFBoard?) {
         self.name = name
         self.currentScore = currentScore
         self.board = board
@@ -25,12 +25,12 @@ public class TFPlayer {
         let container = try decoder.container(keyedBy: Keys.self)
         let name = try container.decode(String.self, forKey: .name)
         let currentScore = try container.decode(UInt.self, forKey: .currentScore)
-        let board = try container.decodeIfPresent(Board.self, forKey: .board)
+        let board = try container.decodeIfPresent(TFBoard.self, forKey: .board)
         self.init(name: name, currentScore: currentScore, board: board)
     }
 }
 
-extension Player: Decodable {
+extension TFPlayer: Decodable {
     enum Keys: CodingKey {
         case name
         case currentScore
@@ -38,7 +38,7 @@ extension Player: Decodable {
     }
 
 }
-extension Player: Encodable {
+extension TFPlayer: Encodable {
     public func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: Keys.self)
         try container.encode(name, forKey: .name)
@@ -47,12 +47,12 @@ extension Player: Encodable {
     }
 }
 
-extension Player: Hashable {
+extension TFPlayer: Hashable {
     public var hashValue: Int {
         return (self.name.hashValue + self.currentScore.hashValue) * 12345
     }
     
-    public static func == (lhs: Player, rhs: Player) -> Bool {
+    public static func == (lhs: TFPlayer, rhs: TFPlayer) -> Bool {
         return lhs.name == rhs.name
     }
 }
