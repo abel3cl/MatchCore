@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum Action: String, Codable {
+public enum TFAction: String, Codable {
     case start
     case left
     case tuttifruti

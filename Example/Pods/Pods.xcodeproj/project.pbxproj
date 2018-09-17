@@ -11,14 +11,14 @@
 		7D2000475F0B1B8CB847E987F9C40C39 /* Pods-MatchCore_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B57241102143F6F400A5FBFD /* MatchCoreOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B572410F2143F6F400A5FBFD /* MatchCoreOS.h */; };
 		B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */ = {isa = PBXBuildFile; fileRef = B57241112143F6F400A5FBFD /* MatchCoreOS.m */; };
-		B57BDC8B2150384400E6FE51 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC872150384400E6FE51 /* Player.swift */; };
-		B57BDC8C2150384400E6FE51 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC872150384400E6FE51 /* Player.swift */; };
-		B57BDC8D2150384400E6FE51 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC882150384400E6FE51 /* Action.swift */; };
-		B57BDC8E2150384400E6FE51 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC882150384400E6FE51 /* Action.swift */; };
-		B57BDC8F2150384400E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC892150384400E6FE51 /* Category.swift */; };
-		B57BDC902150384400E6FE51 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC892150384400E6FE51 /* Category.swift */; };
-		B57BDC912150384400E6FE51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC8A2150384400E6FE51 /* Board.swift */; };
-		B57BDC922150384400E6FE51 /* Board.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC8A2150384400E6FE51 /* Board.swift */; };
+		B57BDC8B2150384400E6FE51 /* TFPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC872150384400E6FE51 /* TFPlayer.swift */; };
+		B57BDC8C2150384400E6FE51 /* TFPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC872150384400E6FE51 /* TFPlayer.swift */; };
+		B57BDC8D2150384400E6FE51 /* TFAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC882150384400E6FE51 /* TFAction.swift */; };
+		B57BDC8E2150384400E6FE51 /* TFAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC882150384400E6FE51 /* TFAction.swift */; };
+		B57BDC8F2150384400E6FE51 /* TFCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC892150384400E6FE51 /* TFCategory.swift */; };
+		B57BDC902150384400E6FE51 /* TFCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC892150384400E6FE51 /* TFCategory.swift */; };
+		B57BDC912150384400E6FE51 /* TFBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC8A2150384400E6FE51 /* TFBoard.swift */; };
+		B57BDC922150384400E6FE51 /* TFBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B57BDC8A2150384400E6FE51 /* TFBoard.swift */; };
 		BA846C9C8CCD4561B32992AFB70F0FA7 /* MatchCore-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC08A13CA0A7B6D31DB2574E73102A35 /* MatchCore-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D69EF1C35942B9AFF68BFB6037DA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E58DB63D10CD2DD1E246F6D0E47FF097 /* Pods-MatchCore_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A263FD0262065FABA030ACE41940E30D /* Pods-MatchCore_Tests-dummy.m */; };
@@ -57,10 +57,10 @@
 		B572410D2143F6F400A5FBFD /* libMatchCoreOS.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libMatchCoreOS.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		B572410F2143F6F400A5FBFD /* MatchCoreOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MatchCoreOS.h; sourceTree = "<group>"; };
 		B57241112143F6F400A5FBFD /* MatchCoreOS.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MatchCoreOS.m; sourceTree = "<group>"; };
-		B57BDC872150384400E6FE51 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Player.swift; path = ../MatchCore/Classes/Player.swift; sourceTree = "<group>"; };
-		B57BDC882150384400E6FE51 /* Action.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Action.swift; path = ../MatchCore/Classes/Action.swift; sourceTree = "<group>"; };
-		B57BDC892150384400E6FE51 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Category.swift; path = ../MatchCore/Classes/Category.swift; sourceTree = "<group>"; };
-		B57BDC8A2150384400E6FE51 /* Board.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Board.swift; path = ../MatchCore/Classes/Board.swift; sourceTree = "<group>"; };
+		B57BDC872150384400E6FE51 /* TFPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TFPlayer.swift; path = ../MatchCore/Classes/TFPlayer.swift; sourceTree = "<group>"; };
+		B57BDC882150384400E6FE51 /* TFAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TFAction.swift; path = ../MatchCore/Classes/TFAction.swift; sourceTree = "<group>"; };
+		B57BDC892150384400E6FE51 /* TFCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TFCategory.swift; path = ../MatchCore/Classes/TFCategory.swift; sourceTree = "<group>"; };
+		B57BDC8A2150384400E6FE51 /* TFBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TFBoard.swift; path = ../MatchCore/Classes/TFBoard.swift; sourceTree = "<group>"; };
 		C6B907807305449956790D19449896B9 /* Pods-MatchCore_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MatchCore_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D6B7A55D424BD35F43FC3D6797B37CDE /* Pods-MatchCore_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MatchCore_Tests-resources.sh"; sourceTree = "<group>"; };
 		E165D2842D0E509436E0A9EEB84DCD81 /* Pods-MatchCore_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MatchCore_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -179,10 +179,10 @@
 		B57241062143F0C100A5FBFD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				B57BDC882150384400E6FE51 /* Action.swift */,
-				B57BDC8A2150384400E6FE51 /* Board.swift */,
-				B57BDC892150384400E6FE51 /* Category.swift */,
-				B57BDC872150384400E6FE51 /* Player.swift */,
+				B57BDC882150384400E6FE51 /* TFAction.swift */,
+				B57BDC8A2150384400E6FE51 /* TFBoard.swift */,
+				B57BDC892150384400E6FE51 /* TFCategory.swift */,
+				B57BDC872150384400E6FE51 /* TFPlayer.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -359,11 +359,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57BDC8C2150384400E6FE51 /* Player.swift in Sources */,
-				B57BDC8E2150384400E6FE51 /* Action.swift in Sources */,
-				B57BDC922150384400E6FE51 /* Board.swift in Sources */,
+				B57BDC8C2150384400E6FE51 /* TFPlayer.swift in Sources */,
+				B57BDC8E2150384400E6FE51 /* TFAction.swift in Sources */,
+				B57BDC922150384400E6FE51 /* TFBoard.swift in Sources */,
 				B57241122143F6F400A5FBFD /* MatchCoreOS.m in Sources */,
-				B57BDC902150384400E6FE51 /* Category.swift in Sources */,
+				B57BDC902150384400E6FE51 /* TFCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,11 +371,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B57BDC8B2150384400E6FE51 /* Player.swift in Sources */,
-				B57BDC8D2150384400E6FE51 /* Action.swift in Sources */,
-				B57BDC912150384400E6FE51 /* Board.swift in Sources */,
+				B57BDC8B2150384400E6FE51 /* TFPlayer.swift in Sources */,
+				B57BDC8D2150384400E6FE51 /* TFAction.swift in Sources */,
+				B57BDC912150384400E6FE51 /* TFBoard.swift in Sources */,
 				E9CF6BDEACB3D89424D5A6ECDC9F839A /* MatchCore-dummy.m in Sources */,
-				B57BDC8F2150384400E6FE51 /* Category.swift in Sources */,
+				B57BDC8F2150384400E6FE51 /* TFCategory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

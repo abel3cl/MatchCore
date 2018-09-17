@@ -8,10 +8,10 @@
 
 import Foundation
 
-public class Player {
+public class TFPlayer {
     public let name: String
     public var currentScore: UInt
-    public var board: Board? = nil
+    public var board: TFBoard? = nil
     
     public init(name: String,
                 currentScore: UInt,

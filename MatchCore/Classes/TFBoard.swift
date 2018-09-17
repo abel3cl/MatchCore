@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct Board: Codable {
+public struct TFBoard: Codable {
     public let letter: String
     public let categories: [TFCategory: String?]
 }
